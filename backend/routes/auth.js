@@ -34,7 +34,7 @@ body('password','Enter a valid password with atleast 5 characters').isLength({ m
           res.json(user)
     } catch (error) {
         console.error(error.message);
-        res.status(500).send("Some Erro ocurred");
+        res.status(500).send("Some Error123 ocurred");
     }
 
     
